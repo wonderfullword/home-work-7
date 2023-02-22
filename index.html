@@ -5,50 +5,440 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Raleway&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Raleway&display=swap" rel="stylesheet">
+  <title>Document</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <header class="header">
-    <div class="container">
-      <div class="header-info">
-        <a class="logo" href="#">
-          <img class="logo" src="./images/AX.png" alt="AXIT">
-          <img class="logo2" src="./images/IT.png" alt="AXIT">
+    <div class="header__top">
+      <div class="container">
+        <div class="header-info">
+          <div class="logo">
+            <a class="logo" href="#">
+              <img class="logo" src="./images/logo-small.png" alt="AXIT">
 
-        </a>
-        <nav class="nav">
-          <a class="nav-link" href="#">Features</a>
-          <a class="nav-link" href="#">About</a>
-          <a class="nav-link" href="#">Pricing</a>
-          <a class="nav-link" href="#">Reviews</a>
-          <a class="nav-link" href="#">Contact</a>
-        </nav>
+            </a>
+          </div>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__link" href="#">Features</a>
+              </li>
+            </ul>
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__link" href="#">About</a>
+              </li>
+            </ul>
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__link" href="#">Pricing</a>
+              </li>
+            </ul>
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__link" href="#">Reviews</a>
+              </li>
+            </ul>
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__link" href="#">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="header__content">
+      <div class="container">
+        <div class="wrap">
+          <div class="header__content-inner">
+            <a class="logo" href="#">
+              <img class="logo-img" src="./images/logo.png" alt="AXIT">
+            </a>
+          </div>
+          <h1 class="header__content-title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+          <div class="header__content-separator"></div>
+          <div class="header__content-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+          <a class="header__content-button" href="#">Download</a>
+
+        </div>
+
+        <div class="header__form">
+          <div class="header__form-title">Try Your <span>FREE</span> Trial Today</div>
+          <div class="header__form-fields">
+            <div class="header__form-field">
+              <input type="text" placeholder="Name" class="header__form-label">
+            </div>
+            <div class="header__form-field">
+              <input type="text" placeholder="Email" class="header__form-label">
+            </div>
+            <div class="header__form-field">
+              <input type="text" placeholder="Password" class="header__form-label">
+            </div>
+          </div>
+          <input type="button" class="header__form-button" value="Get Started">
+        </div>
       </div>
     </div>
   </header>
-  <main class="main">
-    <div class="section">
-      <div class="container">
-        <div class="picture-order">
-        <div class="picture-content">
-          <img class="logo-img" src="./images/AX-t.png" alt="AXIT">
-          <img class="logo-img" src="./images/IT-t.png" alt="AXIT">
-          <h1 class="picture-title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
-          <div class="separator"></div>
-          <p class="picture-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-          <a class="picture-btn" href="#"><button>Download</button></a>
-          <button class="btn card__button">Download</button>
 
-        </div>
+  <div class="media">
+    <div class="container">
+      <div class="media__content">
+        <div class="media__info">
+          <h4 class="media__info-title">Social Media</h4>
+          <p class="media__info-subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Aenean euismod bibendum laoreet.
+
+          <ul class="media__links">
+            <li class="media__link">
+              <a class="media__icon" href="#">
+                <svg aria-hidden="true" height="50" width="50" class="icon">
+                  <use href="./icons/facebook.svg#facebookIcon"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="media__link">
+              <a class="media__icon" href="#">
+                <svg aria-hidden="true" height="50" width="50" class="icon">
+                  <use href="./icons/twitter.svg#twitterIcon"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="media__link">
+              <a class="media__icon" href="#">
+                <svg aria-hidden="true" height="50" width="50" class="icon">
+                  <use href="./icons/linkedn.svg#linkednIcon"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="media__link">
+              <a class="media__icon" href="#">
+                <svg aria-hidden="true" height="50" width="50" class="icon">
+                  <use href="./icons/pincer.svg#pincerIcon"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="media__link">
+              <a class="media__icon" href="#">
+                <svg aria-hidden="true" height="50" width="50" class="icon">
+                  <use href="./icons/instagram.svg#instagramIcon"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="media__link">
+              <a class="media__icon" href="#">
+                <svg aria-hidden="true" height="50" width="50" class="icon">
+                  <use href="./icons/git.svg#gitIcon"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="media__link">
+              <a class="media__icon" href="#">
+                <svg aria-hidden="true" height="50" width="50" class="icon">
+                  <use href="./icons/wifi.svg#wifiIcon"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          </p>
         </div>
       </div>
     </div>
-  </main>
-</body>
+  </div>
 
+
+  <!--SECTION TABLE -->
+
+
+  <div class="container">
+    <div class="tab">
+      <nav class="tabs__item">
+        <a href="#" class="special-tab__item">TAB 1</a>
+        <a href="#" class="tab__item">TAB 2</a>
+        <a href="#" class="tab__item">TAB 3</a>
+      </nav>
+      <div class="tabs__main">
+        <div class="tabs__main-block">
+          <div class="tabs__main-left">
+            <h3>
+              Tabs with soft transitioning effect.
+            </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+              laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+              justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+              penatibus et magnis dis parturient montes.
+              <br>
+              <br>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+              bibendum laoreet.
+            </p>
+            <button class="card__button">Download</button>
+          </div>
+          <div class="tabs__main-right">
+            <img src="./images/statue.png" alt="#" class="statue">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Awesome -->
+  <div class="container">
+    <div class="awesome__content">
+      <div class="awesome__content-top">
+        <h2 class="awesome__content-title">WHY THIS IS AWESOME</h2>
+        <div class="awesome_separator"></div>
+        <p class="awesome__content-subtitle">Lorem ipsum dolor sit amet, consectetur adioiscing elit</p>
+      </div>
+      <div class="awesome__content-bottum">
+        <div class="awesome__column">
+          <img src="./images/awesome-1.png" alt="">
+          <h4 class="awesome__column-title">Thoughtful Design</h4>
+          <p class="awesome__column-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+        </div>
+        <div class="awesome__column">
+          <img src="./images/awesome-2.png" alt="">
+          <h4 class="awesome__column-title">Thoughtful Design</h4>
+          <p class="awesome__column-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+        </div>
+        <div class="awesome__column">
+          <img src="./images/awesome-3.png" alt="">
+          <h4 class="awesome__column-title">Thoughtful Design</h4>
+          <p class="awesome__column-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+        </div>
+      </div>
+    </div>
+    <!--SECTION PRICING -->
+    <div class="container">
+      <div class="promo">
+        <h2 class="promo__title">pricing options</h2>
+        <div class="promo__separator"></div>
+        <h5 class="promo__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </h5>
+        <div class="row">
+          <div class="column">
+            <ul class="card-list">
+              <li class="list-item">Basic</li>
+              <li class="list-item">$10</li>
+              <li class="list-item">Free for life</li>
+              <li class="list-item">1 gb of space</li>
+              <li class="list-item">1 gb of space</li>
+              <li class="list-item">1 gb of space</li>
+              <li class="list-item">1 gb of space</li>
+              <li class="list-item">1 gb of space</li>
+              <li class="list-item">1 gb of space</li>
+            </ul>
+          </div>
+          <div class="column">
+            <div class="special__table">
+              <ul class="card-list">
+                <li class="list-item">Optima</li>
+                <li class="list-item">$20</li>
+                <li class="list-item">Free for life</li>
+                <li class="list-item">1 gb of space</li>
+                <li class="list-item">1 gb of space</li>
+                <li class="list-item">1 gb of space</li>
+                <li class="list-item">1 gb of space</li>
+                <li class="list-item">1 gb of space</li>
+                <li class="list-item">1 gb of space</li>
+              </ul>
+            </div>
+          </div>
+          <div class="column">
+            <ul class="card-list">
+              <li class="list-item">Pro</li>
+              <li class="list-item">$20</li>
+              <li class="list-item">Free for life</li>
+              <li class="list-item">1 gb of space</li>
+              <li class="list-item">1 gb of space</li>
+              <li class="list-item">1 gb of space</li>
+              <li class="list-item">1 gb of space</li>
+              <li class="list-item">1 gb of space</li>
+              <li class="list-item">1 gb of space</li>
+            </ul>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- CUSTOMERS -->
+
+
+  <div class="container">
+    <div class="customers">
+      <h1 class="customers__title">what our customers are saying</h1>
+      <div class="customers__separator"></div>
+      <h2 class="customer__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+    </div>
+    <div class="row__customer">
+      <div class="column__customer">
+        <p class="text-info">Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit. Doloribus
+          accusamus expedita repellat similique
+          odio aspernatur ex, architecto eaque
+          quo suscipit.</p>
+        <div class="user">
+          <div class="user-image">
+            <img src="./images/photo-1.png" alt="photo">
+          </div>
+          <div class="user-info">
+            <h4>Davis Rhiel Madsen</h4>
+            <p>Manager</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column__customer">
+        <p class="text-info">Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit. Doloribus
+          accusamus expedita repellat similique
+          odio aspernatur ex, architecto eaque
+          quo suscipit.</p>
+        <div class="user">
+          <div class="user-image">
+            <img src="./images/photo-2.png" alt="photo">
+          </div>
+          <div class="user-info">
+            <h4>Jaydon Rosser</h4>
+            <p>Manager</p>
+          </div>
+        </div>
+      </div>
+      <div class="column__customer">
+        <p class="text-info">Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit. Doloribus
+          accusamus expedita repellat similique
+          odio aspernatur ex, architecto eaque
+          quo suscipit.</p>
+        <div class="user">
+          <div class="user-image">
+            <img src="./images/photo-3.png" alt="photo">
+          </div>
+          <div class="user-info">
+            <h4>Cooper Dorwart</h4>
+            <p>Manager</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION DESIGN -->
+
+  <div class="design">
+    <div class="design__content">
+      <div class="design__content-title">STYLISH AXURE DESIGN</div>
+      <div class="design__content-separator"></div>
+      <div class="design__content-subtitle">Use the sections you need, remove the ones you don't. Create gorgeous
+        prototypes
+        faster than ever!</div>
+      <a class="design__content-button" href="#">Download</a>
+
+    </div>
+  </div>
+
+  <!-- SECTION CONTACT -->
+
+  <div class="container">
+    <div class="contact">
+      <div class="contact__content">
+        <div class="contact__content-title">contact us</div>
+        <div class="contact__content-separator"></div>
+        <div class="contact__content-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+      </div>
+      <div class="contact__form">
+        <div class="contact__column-form-left">
+          <div class="contact__form-field">
+            <input type="text" placeholder="Name" class="contact__form-label">
+          </div>
+          <div class="contact__form-field">
+            <input type="email" placeholder="Email" class="contact__form-label">
+          </div>
+          <div class="contact__form-field">
+            <input type="password" placeholder="Password" class="contact__form-label">
+          </div>
+        </div>
+        <div class="contact__column-form-right">
+          <div class="contact__form-field">
+            <input type="textarea" placeholder="Message" class="contact__form-speciallabel">
+          </div>
+        </div>
+      </div>
+      <a class="contact__content-button" href="#">Send Message</a>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <div class="footer">
+    <ul class="footer__links">
+      <li class="footer__link">
+        <a class="media__icon" href="#">
+          <svg aria-hidden="true" height="50" width="50" class="icon">
+            <use href="./icons/facebook.svg#facebookIcon"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="footer__link">
+        <a class="media__icon" href="#">
+          <svg aria-hidden="true" height="50" width="50" class="icon">
+            <use href="./icons/twitter.svg#twitterIcon"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="footer__link">
+        <a class="media__icon" href="#">
+          <svg aria-hidden="true" height="50" width="50" class="icon">
+            <use href="./icons/linkedn.svg#linkednIcon"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="footer__link">
+        <a class="media__icon" href="#">
+          <svg aria-hidden="true" height="50" width="50" class="icon">
+            <use href="./icons/pincer.svg#pincerIcon"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="footer__link">
+        <a class="media__icon" href="#">
+          <svg aria-hidden="true" height="50" width="50" class="icon">
+            <use href="./icons/instagram.svg#instagramIcon"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="footer__link">
+        <a class="media__icon" href="#">
+          <svg aria-hidden="true" height="50" width="50" class="icon">
+            <use href="./icons/git.svg#gitIcon"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="footer__link">
+        <a class="media__icon" href="#">
+          <svg aria-hidden="true" height="50" width="50" class="icon">
+            <use href="./icons/wifi.svg#wifiIcon"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+    <div class="footer__slogan">© 2015 Axure Themes</div>
+  </div>
+</body>
 </html>
